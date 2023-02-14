@@ -8,7 +8,7 @@
 }
 header{
     background: #000000; 
-    font-family: 'Lato', sans-serif;
+    font-family: 'Times new roman', sans-serif;
 }
 
 nav{
@@ -19,11 +19,13 @@ nav{
 .logo{
     display: flex;
     align-items: center;
+    color: aqua;
 }
 
 .logo img{
     width: 40px;
     padding: 0 25px;
+    color: aqua;
 }
 
 nav ul{
@@ -39,7 +41,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: rgb(54, 177, 230);
     text-decoration: none;
 }
 
@@ -108,8 +110,8 @@ nav ul li a:hover{
   }
   .buton button{
      border-radius: 22px;
-    color: white;
-    background-color: dodgerblue;
+    color: rgb(58, 14, 234);
+    background-color: rgb(231, 9, 146);
     /* font-weight: bold; */
     font-size: 15px;
     margin-top: 34px;
@@ -231,4 +233,5 @@ footer{
 }
 .text-center{
     height:444px;
+    color: rgb(54, 177, 230);
 }
